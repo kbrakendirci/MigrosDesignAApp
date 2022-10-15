@@ -12,22 +12,22 @@
         tools:layout="@layout/fragment_accaunt" />
     <fragment
         android:id="@+id/basketFragment"
-        android:name="com.kotlinproject.migrosdesign.BasketFragment"
+        android:name="com.kotlinproject.migrosdesign.Ui.Fragment.BasketFragment"
         android:label="fragment_basket"
         tools:layout="@layout/fragment_basket" />
     <fragment
         android:id="@+id/campaignFragment"
-        android:name="com.kotlinproject.migrosdesign.CampaignFragment"
+        android:name="com.kotlinproject.migrosdesign.Ui.Fragment.CampaignFragment"
         android:label="fragment_campaign"
         tools:layout="@layout/fragment_campaign" />
     <fragment
         android:id="@+id/categoryFragment"
-        android:name="com.kotlinproject.migrosdesign.CategoryFragment"
+        android:name="com.kotlinproject.migrosdesign.Ui.Fragment.CategoryFragment"
         android:label="fragment_category"
         tools:layout="@layout/fragment_category" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.kotlinproject.migrosdesign.HomeFragment"
+        android:name="com.kotlinproject.migrosdesign.Ui.Fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 </navigation>
