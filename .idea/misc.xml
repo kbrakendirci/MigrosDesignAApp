@@ -7,13 +7,16 @@
         <entry key="app/src/main/res/drawable/background.xml" value="0.16944444444444445" />
         <entry key="app/src/main/res/drawable/ic_iconhome.xml" value="0.16944444444444445" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.16944444444444445" />
+        <entry key="app/src/main/res/drawable/labelcardbackground.xml" value="0.16111111111111112" />
+        <entry key="app/src/main/res/drawable/labelsearchbackground.xml" value="0.16111111111111112" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15462962962962962" />
         <entry key="app/src/main/res/layout/categoryitem.xml" value="0.1287037037037037" />
         <entry key="app/src/main/res/layout/fragment_accaunt.xml" value="0.175" />
         <entry key="app/src/main/res/layout/fragment_basket.xml" value="0.175" />
         <entry key="app/src/main/res/layout/fragment_campaign.xml" value="0.27314814814814814" />
-        <entry key="app/src/main/res/layout/fragment_category.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_category.xml" value="0.21311475409836064" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/labelcardviewdesign.xml" value="0.125" />
         <entry key="app/src/main/res/layout/searchview.xml" value="0.175" />
         <entry key="app/src/main/res/menu/bottombar_menu.xml" value="0.15462962962962962" />
       </map>
