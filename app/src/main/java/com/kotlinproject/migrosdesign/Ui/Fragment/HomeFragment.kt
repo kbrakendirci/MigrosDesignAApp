@@ -5,14 +5,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.kotlinproject.migrosdesign.Model.CategoryData
 import com.kotlinproject.migrosdesign.Model.LabelData
 import com.kotlinproject.migrosdesign.R
-import com.kotlinproject.migrosdesign.Ui.adapter.CategoryCardAdapter
-import com.kotlinproject.migrosdesign.Ui.adapter.LabelCardAdapter
-import kotlinx.android.synthetic.main.fragment_home.*
+import com.kotlinproject.migrosdesign.Ui.adapter.Home.HomePageAdvertisementAdapter
+import com.kotlinproject.migrosdesign.Ui.adapter.Home.LabelCardAdapter
+import com.kotlinproject.migrosdesign.Ui.adapter.Home.SmallAdvertisementAdapter
 import kotlinx.android.synthetic.main.fragment_home.view.*
 import java.util.*
 
@@ -46,6 +45,25 @@ class HomeFragment : Fragment() {
         val cardView = binding.cardView;
         cardView.setBackgroundResource(R.drawable.labelcardbackground);
 
+        dataSet=ArrayList<LabelData>()
+        dataSet.add(LabelData("cicekler"))
+        dataSet.add(LabelData("ekmekler"))
+        dataSet.add(LabelData("fiyatlar"))
+
+
+        val rvAdvertisement=binding.rvadvertisement
+        rvAdvertisement.layoutManager= LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        rvAdvertisement.adapter= HomePageAdvertisementAdapter(dataSet,requireContext())
+
+        dataSet=ArrayList<LabelData>()
+        dataSet.add(LabelData("img_1"))
+        dataSet.add(LabelData("img_1"))
+        dataSet.add(LabelData("img_1"))
+
+
+        val rvSmallAdvertisement=binding.rvSmallAdvertisement
+        rvSmallAdvertisement.layoutManager=  LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
+        rvSmallAdvertisement.adapter= SmallAdvertisementAdapter(dataSet,requireContext())
         return binding
     }
 

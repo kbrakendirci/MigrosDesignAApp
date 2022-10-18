@@ -18,8 +18,9 @@
         <entry key="app/src/main/res/layout/fragment_basket.xml" value="0.175" />
         <entry key="app/src/main/res/layout/fragment_campaign.xml" value="0.27314814814814814" />
         <entry key="app/src/main/res/layout/fragment_category.xml" value="0.21311475409836064" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.175" />
-        <entry key="app/src/main/res/layout/homecarditem.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/homeadvertisementcarditem.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/homecarditem.xml" value="0.15873015873015872" />
         <entry key="app/src/main/res/layout/labelcardviewdesign.xml" value="0.125" />
         <entry key="app/src/main/res/layout/searchview.xml" value="0.175" />
         <entry key="app/src/main/res/menu/bottombar_menu.xml" value="0.15462962962962962" />

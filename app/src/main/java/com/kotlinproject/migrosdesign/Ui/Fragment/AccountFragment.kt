@@ -5,16 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.kotlinproject.migrosdesign.Model.AccountData
-import com.kotlinproject.migrosdesign.Model.CategoryData
-import com.kotlinproject.migrosdesign.Model.LabelData
 import com.kotlinproject.migrosdesign.Ui.adapter.AccountAdapter
-import com.kotlinproject.migrosdesign.Ui.adapter.LabelCardAdapter
 import kotlinx.android.synthetic.main.fragment_accaunt.view.*
-import kotlinx.android.synthetic.main.fragment_home.view.*
 import java.util.*
 
 
